@@ -66,6 +66,18 @@ O Colab executa Python por padrão, então o código C precisa ser salvo e compi
 !printf "1\n2\n300\n3\n150\n4\n0\n" | ./bancotech
 ```
 
+## ▶️ Demonstração no Google Colab
+
+**[Abrir o notebook BancoTech — Testes e Validações](https://colab.research.google.com/drive/1SJ9uC9DFV-rJONXnHYviqp6DX57-JOhZ?usp=sharing)**
+
+O notebook documenta a recuperação do código pelo GitHub, a compilação com GCC e três cenários executados durante o desenvolvimento:
+
+1. **Operações bancárias:** consulta, depósito de R$ 300,00, saque de R$ 150,00 e saldo final de R$ 1.150,00.
+2. **Entradas inválidas:** texto `abc` e opção `9` rejeitados, com retorno ao menu e saldo preservado.
+3. **Operações recusadas:** depósito de R$ -50,00 e tentativa de saque de R$ 5.000,00, sem alterar o saldo inicial de R$ 1.000,00.
+
+> Para visualizar o notebook, o compartilhamento no Google Colab deve permitir acesso de leitura a pessoas com o link. Como o Colab pode não manter todas as saídas entre sessões, o visitante poderá precisar executar as células novamente. Nenhum dado bancário real é utilizado.
+
 ## 🧪 Cenário de teste
 
 | Ação | Valor | Saldo esperado |
