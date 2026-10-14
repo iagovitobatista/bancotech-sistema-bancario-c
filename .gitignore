@@ -1,0 +1,15 @@
+# Executaveis e artefatos locais
+bancotech
+bancotech.exe
+*.o
+*.obj
+*.out
+
+# Arquivos locais de editores e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Saidas temporarias
+*.log
